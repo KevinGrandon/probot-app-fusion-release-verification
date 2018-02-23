@@ -1,0 +1,31 @@
+{
+  "name": "probot-app-fusion-release-verification",
+  "version": "1.0.5",
+  "description": "GitHub App that labels release PRs",
+  "author": "Kevin Grandon <kevingrandon@yahoo.com>",
+  "contributors": [],
+  "repository": "https://github.com/uber-web/probot-app-fusion-release-verification.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "npm run lint && jest",
+    "jest": "jest",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "probot": "5.0.0",
+    "semver": "5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "4.18.1",
+    "eslint-plugin-prettier": "2.6.0",
+    "jest": "22.3.0",
+    "localtunnel": "1.8.3",
+    "prettier": "1.10.2",
+    "smee-client": "^1.0.1"
+  },
+  "engines": {
+    "node": ">= 8.6.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+version: '2'
+services:
+  probot-app-fusion-release-verification:
+    build: .
+    volumes:
+      - .:/probot-app-fusion-release-verification
+      - /probot-app-fusion-release-verification/node_modules/
